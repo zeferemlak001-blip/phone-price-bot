@@ -7,7 +7,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 from statistics import mean, median
 import re
 import time
-from keep_alive import keep_alive # Render üçün botu canlı saxlamaq
+from keep_alive import keep_alive
 
 # Telegram token
 BOT_TOKEN = os.getenv("7612014580:AAHFDvz9I07K6-My__qJ9-OHPVwpvVJ_pss")
