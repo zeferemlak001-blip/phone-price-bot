@@ -10,7 +10,7 @@ import time
 from keep_alive import keep_alive # Render üçün botu canlı saxlamaq
 
 # Telegram token
-BOT_TOKEN = os.getenv("7612014580:AAHFDvz9I07K6-My__qJ9-OHPVwpvVJ_pss'')
+BOT_TOKEN = os.getenv("7612014580:AAHFDvz9I07K6-My__qJ9-OHPVwpvVJ_pss")
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
